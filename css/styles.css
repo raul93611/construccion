@@ -1,0 +1,68 @@
+body{
+  font-family: 'Nunito', sans-serif;
+}
+
+header{
+  background-image: url('../img/superior.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+
+.logo span, header .main_text h1, .nosotros h1, .modelos h1, .galeria h1{
+  font-weight: 900;
+}
+
+header .main_text{
+  margin-top: 20px;
+}
+
+.nosotros .row{
+  background-image: url('../img/nosotros.jpg');
+  height: 600px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+
+.modelos .modelo_basico{
+  background-image: url('../img/modelo_basico.jpg');
+  height: 600px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.modelos .modelo_premier{
+  background-image: url('../img/modelo_premier.jpg');
+  height: 600px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+
+.modelos .modelo_elite{
+  background-image: url('../img/modelo_elite.jpg');
+  height: 600px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+footer{
+  background-image: url('../img/footer_bg.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+
+@media (min-width: 768px){
+  header .main_text{
+    margin-top: 300px;
+  }
+
+  .nosotros .row{
+    height: 500px;
+  }
+}
